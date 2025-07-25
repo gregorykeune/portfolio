@@ -1,0 +1,437 @@
+/*seção sobre-mim */
+body {
+    background-color: white;
+    background-image: 
+      linear-gradient(to right, #eaeaea 1px, transparent 1px),
+      linear-gradient(to bottom, #eaeaea 1px, transparent 1px);
+    background-size: 3.8rem 3.8rem;
+}
+
+
+section {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#inicio {
+    width: 99vw;
+    margin: 0;
+}
+
+.texto-introducao {
+    font-size: 1.5rem;
+    width: 45vw;
+    margin: 130px 30px 30px 30px;
+}
+
+.espaco-section {
+    margin-top: 100px;
+}
+
+.texto-titulo {
+    margin-top: 80px;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+
+.continuacao-introducao {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 45vw;
+}
+
+.botao-contato {
+    margin-top: 6px;
+    width: 210px;
+    background-color: white;
+    border: 2px black solid;
+    border-radius: 15px;
+    height: 40px;
+    transition: ease 0.5s;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.botao-contato:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+.contatos-links {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.contatos-links img {
+    position: static;
+    margin-left: 10px;
+    width: auto;
+    transition: transform ease 0.5s;
+}
+
+.contatos-links img:hover {
+    transform: scale(1.2);
+}
+
+.contatos-links .icone-github img {
+    height: 40px;
+    margin-top: 6px;
+}
+
+.contatos-links .icone-linkedin img {
+    height: 40px;
+    margin-top: 6px;
+}
+
+
+.contatos-links .icone-email img {
+    height: 52px;
+}
+
+
+/* seção projetos */
+
+
+#projetos {
+    margin-top: 100px;
+    background-color: rgb(8, 8, 8);
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.titulo-projetos {
+    font-size: 1.5rem;
+    margin-top: 100px;
+}
+
+.container-projeto {
+    margin-top: 20px;
+    display: flex;
+    width: fit-content;
+    border-radius: 20px;
+}
+
+.descricao-projeto {
+    margin-top: 20px;
+    text-align: center;
+    width: 1030px;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.descricao-projeto p {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.descricao-projeto p.fade-out {
+  transform: translateY(-10px);
+  opacity: 0;
+}
+
+.img-projeto img {
+    border-radius: 10px;
+    margin: 10px;
+    height: 280px; /* altura 1,86 */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.img-esquerda img {
+    margin-left: 0;
+}
+
+.container-superior {
+    margin-top: 100px;
+}
+
+.container-superior .img-projeto img{
+    height: 320px;
+    margin-left: 0;
+}
+
+.fileira1, .fileira2 {
+    display: flex;
+}
+
+.fileira1 .img-projeto img {
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 320px; /* largura 2,13 altura 1  */
+    height: 150px;
+}
+
+.fileira2 .img-projeto img{
+    margin: 10px;
+    border-radius: 10px;
+    width: 150px; /* largura 1 altura 1 */
+    height: 150px;
+}
+
+.container-inferior {
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+/*seção experiencias */
+
+#experiencias, #competencias, #contato {
+    background-color: rgb(243, 242, 242);
+    width: 100%;
+    margin-top: 0;
+}
+
+.setor-exp, .setor-comp, .setor-contato {
+    background-color: white;
+    background-image: 
+      linear-gradient(to right, #eaeaea 1px, transparent 1px),
+      linear-gradient(to bottom, #eaeaea 1px, transparent 1px);
+    background-size: 3.8rem 3.8rem;
+    margin-top: 40px;
+    width: 95vw;
+    border-radius: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-exp, .titulo-comp, .titulo-contato {
+    margin-top: 100px;
+    font-size: 1.5rem;
+}
+
+.container-exp .bloco1, .container-exp .bloco2, .container-contato {
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    margin-top: 100px;
+    width: 900px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    border: solid black 2px;
+
+}
+.container-exp .espaco-imagem img {
+    width: 150px;
+    height: 150px;
+}
+
+.logo-crocs {
+    border-radius: 10px;
+}
+
+.logo-acai {
+    border: solid black 1px;
+    border-radius: 100px;
+}
+
+.imagem-responsiva {
+    display: none;
+}
+
+.container-exp .bloco1 .espaco-imagem {
+    margin-left: 100px;
+}
+
+.container-exp .bloco2 {
+    margin-bottom: 100px;
+}
+
+.container-exp .bloco1 .espaco-texto{
+    margin-right: 100px;
+    max-width: 400px;
+}
+
+.container-exp .bloco2 .espaco-imagem {
+    margin-right: 100px;
+}
+
+.container-exp .bloco2 .espaco-texto{
+    margin-left: 100px;
+    max-width: 400px;
+}
+
+.container-exp h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.container-exp .bloco2 p, .texto-crocs {
+    font-size: 1rem;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.data-crocs {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+/* seção competencias */
+
+.container-comp {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.fileira-principais, .fileira-aprendendo {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.espaco-competencia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.espaco-competencia p {
+    font-weight: 500;
+}
+
+.espaco-icone img {
+    height: 40px;
+}
+
+.espaco-icone{
+    margin: 8px;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(251, 250, 250);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aprendendo {
+    margin-top: 50px;
+}
+
+.espaco-direito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    width: 310px;
+    height: 340px;
+}
+
+
+
+/* seção contatos */
+
+
+.setor-contato {
+    margin-bottom: 40px;
+}
+
+.container-contato {
+    flex-direction: column;
+    justify-content: space-around;
+    width: 700px;
+    height: 350px;
+    margin-bottom: 100px;
+}
+
+.container-contato a img {
+    height: 40px;
+    transition: transform ease 0.5s;
+}
+
+.container-contato a img:hover {
+    transform: scale(1.2);
+}
+
+.container-contato .espaco-superior {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+/* footer */
+
+#footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    width: 100%;
+    margin-top: 0;
+    height: 200px;
+}
+
+footer {
+    width: 60vw;
+    max-width: 990px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: rgb(174, 174, 174);
+    font-size: 0.8rem;
+}
+
+footer a {
+    color: rgb(174, 174, 174);
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.agradecimento {
+    color: white;
+    font-size: 1rem;
+}
+
+.info {
+    margin-top: 40px;
+}
+
+.info p {
+    margin-top: 5px;
+}
+
+.creditos-imagens p {
+    margin: 5px 0 5px 0;
+}
+
+.links a {
+    margin-left: 15px;
+}
+
+.links h2 {
+    margin-left: 14px;
+    margin-bottom: 10px;
+    color: rgb(222, 222, 222);
+}
+

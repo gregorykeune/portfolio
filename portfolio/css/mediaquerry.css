@@ -1,0 +1,284 @@
+@media screen and (max-width: 1400px) {
+    .navbar-itens {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    nav {
+        width: 80%;
+    }
+    
+    .texto-introducao {
+        width: 80vw;
+    }
+    
+    .texto-titulo {
+        width: 65vw;
+    }
+    
+    .continuacao-introducao {
+        width: 80vw;
+    }
+
+    #pagina-projetos {
+        width: 80vw;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1100px) {
+
+    .descricao-projeto {
+        width: 720px;
+    }
+
+    .img-projeto img {
+        height: 186px;
+    }
+
+    .container-superior .img-projeto img {
+        height: 213px;
+    }
+
+    .fileira1 .img-projeto img {
+        height: 100px;
+        width: 213px;
+    }
+
+    .fileira2 .img-projeto img {
+        height: 100px;
+        width: 100px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .container-exp .bloco1, .container-exp .bloco2, .container-contato {
+        width: 80vw;
+    }
+
+    .container-exp .bloco1 .espaco-imagem {
+        margin-left: 10px;
+    }
+
+    .container-exp .bloco1 .espaco-texto{
+        margin-right: 10px;
+    }
+
+    .container-exp .bloco2 .espaco-imagem {
+        margin-right: 10px;
+    }
+
+    .container-exp .bloco2 .espaco-texto{
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .links a {
+        margin-top: 5px;
+    }
+
+    .container-habilidades {
+        max-width: 350px;
+    }
+
+    .imagem-projeto img {
+        width: 300px;
+    }
+
+    .imagem-projeto img:hover {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .descricao-projeto {
+        width: 80vw;
+    }
+
+    .container-exp .bloco1, .container-exp .bloco2 {
+        display: block;
+        height: auto;
+    }
+
+    .container-exp .bloco1 .espaco-texto, .container-exp .bloco2 .espaco-texto{
+        max-width: 1000px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-exp .bloco2 p, .texto-crocs {
+        margin: 20px;
+    }
+
+    .data-crocs {
+        margin: 20px;
+        margin-top: 0;
+
+    }
+
+    .container-exp .espaco-texto h2 {
+        margin-top: 20px;
+    }
+
+    .container-exp .bloco1 .espaco-imagem, .container-exp .bloco2 .espaco-texto {
+        margin-left: 0;
+    }
+
+    .container-exp .bloco2 .espaco-imagem {
+        margin-right: 0;
+    }
+
+    .espaco-imagem {
+        margin-top: 20px;
+    }
+
+    .imagem-responsiva {
+        display: block;
+    }
+
+    .imagem-acai {
+        display: none;
+    }
+
+
+    .container-projeto {
+        flex-direction: column;
+    }
+
+    .container-superior .img-projeto img{
+        width: 80vw;
+        height: auto;
+        margin-left: 10px;
+    }
+
+    .img-projeto img {
+        margin: 10px;
+        width: 80vw;
+        height: auto;
+    }
+
+    .img-projeto .img-direita img {
+        margin-left: 0;
+    }
+
+    .fileira1 .img-projeto img {
+        width: 80vw;
+        height: 40vw;    
+    }
+
+    .fileira2 .img-projeto img {
+        width: 38vw;
+        height: 38vw;
+    }
+
+    .fileira2 .img-projeto .img-academia {
+        margin-left: 2.4vw;
+    }
+
+
+    .container-comp {
+        flex-direction: column;
+
+    }
+
+    .espaco-direito {
+        margin-top: 50px;
+        margin-left: 0;
+        width: auto;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .container-contato .espaco-superior {
+        flex-direction: column;
+    }
+
+    .container-contato {
+        padding-bottom: 20px;
+        height: auto;
+    }
+
+    .container-contato a img {
+        margin-top: 20px;
+    }
+
+    .fileira2 .img-projeto .img-academia {
+        margin-left: 2vw;
+    }
+
+    .descricao-projeto {
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+} 
+
+@media screen and (max-width: 380px) {
+    .foto-perfil {
+        margin-top: 7px;
+    }
+
+    .container-habilidades {
+        width: 80vw;
+    }
+
+    footer {
+        width: 80vw;
+    }
+
+    .setor-habilidades {
+        background-color: rgb(243, 242, 242);
+    }
+
+    .ver-projetos button {
+        width: 280px;
+    }
+
+    .fileira2 .img-projeto .img-academia {
+        margin-left: 1.6vw;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .texto-introducao h1 {
+        font-size: 1.8rem;
+    }
+
+    .container-habilidades {
+        width: 95vw;
+        margin-left: 15px;
+        padding-right: 12px;
+    }
+
+    .soft-skills-container, .hard-skills-container {
+        margin: 0;
+        margin-top: 100px;
+        padding: 0;
+    }
+
+    .descricao-projeto {
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+}

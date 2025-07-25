@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(3px);
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 18px;
+}
+
+nav {
+    width: 45vw;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+}
+
+.navbar-itens ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.perfil {
+    display: flex;
+}
+
+.foto-perfil {
+    margin-top: 3px;
+    width: 35px;
+    min-width: 35px;
+    height: 35px;
+    background-color: black;
+    border-radius: 30px;
+    margin-right: 20px;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+.foto-perfil.expandida {
+    transform: scale(1.7) translateY(6px);
+}
+
+li {
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a {
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    text-decoration-color: rgba(255, 255, 255, 0);
+}
+
+
+
+nav a:hover {
+    color: rgb(41, 40, 40);
+    text-decoration: underline;
+    text-decoration-thickness: 0.1rem;
+    text-underline-offset: 0.2rem;
+    text-decoration-color: rgb(110, 108, 108,);
+}
+
+nav h1 {
+    margin-top: 10px;
+    font-size: 1rem;
+    cursor: default;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.mobile-menu-icon {
+    min-width: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+.mobile-menu button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.mobile-menu-icon img {
+    width: 20px;
+    height: 20px;
+}
+
+.mobile-menu ul {
+    text-align: center;
+}
+
+.mobile-menu li {
+    margin: 0;
+    margin-top: 1rem;
+}
+
+.mobile-menu-links {
+    display: none;
+}
+
+.open {
+    display: flex;
+}
+
+.linha-header {
+    width: 100%;
+    margin: 0;
+}

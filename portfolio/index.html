@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/mediaquerry.css">
+    <link rel="icon" type="image/png" href="img/icones/g-solid.svg">
+    <title>Gregory Keune</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="perfil">
+                <div ><img class="foto-perfil" src="img/foto-gregory.jpg" alt="" onclick="aumentarPerfil(this)"></div>
+                <h1>Gregory Keune</h1>
+            </div>
+
+            <div class="navbar-itens">
+                <ul type="none">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#experiencias">Experiências</a></li>
+                    <li><a href="#competencias">Competências</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu">    
+                <div class="mobile-menu-icon">
+                    <button onclick="abrirmenu()"><img class="icon" src="img/icones/barra-menu.svg" alt=""></button>
+                </div>
+
+                <div class="mobile-menu-links">
+                    <ul type="none">
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#experiencias">Experiências</a></li>
+                        <li><a href="#competencias">Competências</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <section id="inicio">
+        <div class="texto-introducao">
+            <h1>Estudante de TI com foco em desenvolvimento backend.</h1>
+            <p class="texto-titulo">Olá! Eu sou o Gregory e estou cursando Ciência da Computação na PUCPR, atualmente no 4º período. Minha experiência na área de vendas me proporcionou uma base sólida em comunicação, na habilidade de entender as necessidades das pessoas e resolução de problemas práticos, e agora procuro ganhar experiência na área em que estudo.</p>
+
+        </div>
+        
+        <div class="continuacao-introducao">
+            <button onclick="location.href='#contato'" class="botao-contato">Entre em Contato</button>
+            <div class="contatos-links">
+                <a class="icone-github" href="https://github.com/gregorykeune" target="_blank" rel="nofollow"><img src="img/icones/github-logo.png" alt=""></a>
+                <a class="icone-linkedin" href="https://www.linkedin.com/in/gregory-keune-rodrigues-691028330/" target="_blank" rel="nofollow"><img class="logo-linkedin" src="img/icones/linkedin-logo.png" alt="linkedin-logo"></a>
+                <a class="icone-email" href="https://mail.google.com/mail/?view=cm&fs=1&to=gregorykeune@gmail.com&su=Assunto&body=Olá%20mensagem%20aqui" target="_blank" rel="nofollow"><img src="img/icones/email-icon.svg" alt=""></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos">
+        <div class="setor-projetos">
+
+            <div class="titulo-projetos">
+                <h1>Projetos</h1>
+            </div>
+
+            <div class="container-projeto container-superior">
+                <div class="img-projeto">
+                    <img src="img/projetos/projeto-necroterio.png" data-descricao="Projeto de banco de dados relacional estruturado de um necrotério, incluindo controle de processos, documentos e registros operacionais." alt="">
+                </div>
+                <div class="bento-boxes">
+                    <div class="fileira1">
+                        <div class="img-projeto"><img src="img/projetos/carros.jpg" alt="" data-descricao="Programa em C que gerencia carros, realizando leitura de dados de arquivo .txt, ordenação, filtros, inserção e remoção dinâmica de registros."></div>
+                    </div>
+                    <div class="fileira2">
+                        <div class="img-projeto">
+                            <img src="img/projetos/biblioteca.jpg" data-descricao="Sistema de gerenciamento de biblioteca com controle de usuários, funcionários, livros, vendas e empréstimos em python com SQLAlchemy." alt="">
+                        </div>
+                        <div class="img-projeto">
+                            <img class="img-academia" src="img/projetos/foto-academia.webp" alt="" data-descricao="(Em progresso) Sistema em Java com Spring Boot para registro de treinos e exercícios. Backend REST com persistência em banco de dados.">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="descricao-projeto">
+                <p id="texto-descricao">Clique (mobile) ou posicione o ponteiro do mouse sobre o projeto no qual você deseja visualizar a descrição.</p>
+            </div>
+
+            <div class="container-projeto container-inferior">
+                <div class="img-projeto img-esquerda">
+                    <img src="img/projetos/projetoExpCriativa2.png" data-descricao="Projeto Flask em Python para monitoramento da qualidade da água, utilizando MQTT para coleta de dados e interface web com HTML/CSS." alt="">
+                </div>
+                <div class="img-projeto img-direita">
+                    <img src="img/projetos/siteOng.png" data-descricao="Sistema web dinâmico destina a uma ONG para gerenciamento de processos logísticos, desenvolvido com HTML, CSS, JavaScript e PHP" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="experiencias">
+        <div class="setor-exp">
+
+            <div class="titulo-exp">
+                <h1>Experiências</h1>
+            </div>
+
+            <div class="container-exp">
+                <div class="bloco1">
+                    <div class="espaco-imagem">
+                        <img class="logo-crocs" src="img/icones/crocsinc_logo.jpg" alt="">
+                    </div>
+                    <div class="espaco-texto">
+                        <h2>Crocs</h2>
+                        <p class="texto-crocs">Atuei como vendedor freelancer nas lojas Crocs Curitiba durante duas temporadas de fim de ano, totalizando 5 meses de experiência. Trabalhei nas unidades dos shoppings Palladium, Jockey Plaza e ParkShopping Barigui.</p>
+                        <p class="data-crocs">(Dezembro 2023 - fevereiro 2024, Dezembro 2024 - Janeiro 2025)</p>
+                    </div>
+                </div>
+                <div class="bloco2">
+                    <div class="espaco-imagem imagem-responsiva">
+                        <img class="logo-acai" src="img/icones/logo-acai.png" alt="">
+                    </div>
+                    <div class="espaco-texto">
+                        <h2>The American Açaí Cafe</h2>
+                        <p>Atuei como freelancer no atendimento e preparo de lanches no The American Açaí Café, em San Diego, Califórnia, em fevereiro de 2025. Apesar do curto período, a experiência evidenciou minha proficiência em inglês e minha capacidade de adaptação em um ambiente internacional.</p>
+                    </div>
+                    <div class="espaco-imagem imagem-acai">
+                        <img class="logo-acai" src="img/icones/logo-acai.png" alt="">
+                    </div>
+                </div>         
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section id="competencias">
+        <div class="setor-comp">
+
+            <div class="titulo-comp">
+                <h1>Competências</h1>
+            </div>
+
+            <div class="container-comp">
+                <div class="espaco-esquerdo">
+
+                    <h2>Principais Competências</h2>
+                    
+                    <div class="fileira-principais">
+                        <div class="espaco-competencia">
+                            <div class="espaco-icone">
+                                <img src="img/icones/java-brands.svg" alt="">
+                            </div>
+                            <p>Java</p>
+                        </div>
+                        
+                        <div class="espaco-competencia">
+                            <div class="espaco-icone">
+                                <img src="img/icones/database-solid.svg" alt="">
+                            </div>
+                            <p>SQL</p>
+                        </div>
+
+                        <div class="espaco-competencia">
+                            <div class="espaco-icone">
+                                <img src="img/icones/c-logo.png" alt="">
+                            </div>
+                            <p>C</p>
+                        </div>
+                    </div>
+
+                    <h2 class="aprendendo">Aprendendo/Estudando</h2>
+                    
+                    <div class="fileira-aprendendo">
+                        <div class="espaco-competencia">
+                            <div class="espaco-icone">
+                                <img src="img/icones/springboot-logo.png" alt="">
+                            </div>
+                            <p>Springboot</p>
+                        </div>
+                        
+                        <div class="espaco-competencia">
+                            <div class="espaco-icone">
+                                <img src="img/icones/c++-icon.png" alt="">
+                            </div>
+                            <p>C++</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="espaco-direito">
+                    <h2>Geral</h2>
+
+                    <div class="fileira-principais">
+                        <div class="espaco-competencia">
+                            <div class="espaco-icone">
+                                <img src="img/icones/ingles-icon.png" alt="">
+                            </div>
+                            <p>Inglês</p>
+                        </div>
+                        
+                        <div class="espaco-competencia">
+                            <div class="espaco-icone">
+                                <img src="img/icones/html-icon.svg" alt="">
+                            </div>
+                            <p>HTML</p>
+                        </div>
+
+                        <div class="espaco-competencia">
+                            <div class="espaco-icone">
+                                <img src="img/icones/css-icon.svg" alt="">
+                            </div>
+                            <p>CSS</p>
+                        </div>
+                    </div>
+
+                    <div class="fileira-principais">
+                        <div class="espaco-competencia">
+                            <div class="espaco-icone">
+                                <img src="img/icones/js-logo.svg" alt="">
+                            </div>
+                            <p>JavaScript</p>
+                        </div>
+                        
+                        <div class="espaco-competencia">
+                            <div class="espaco-icone">
+                                <img src="img/icones/php-icon.png" alt="">
+                            </div>
+                            <p>PHP</p>
+                        </div>
+
+                        <div class="espaco-competencia">
+                            <div class="espaco-icone">
+                                <img src="img/icones/python-icon" alt="">
+                            </div>
+                            <p>Python</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            
+
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="setor-contato">
+            <div class="titulo-contato">
+                <h1>Contato</h1>
+            </div>
+            
+            <div class="container-contato">
+                <div class="espaco-superior">
+                    <div class="contato-linkedin">
+                        
+                        <a class="icone-linkedin" href="https://www.linkedin.com/in/gregory-keune-rodrigues-691028330/" target="_blank" rel="nofollow"><img class="logo-linkedin" src="img/icones/linkedin-logo.png" alt="linkedin-logo"></a>
+                        
+                        <h3>Linkedin:</h2>
+                            
+                        <p>Gregory Keune Rodrigues</p>
+                            
+                    </div>
+                        
+                    <div class="contato-linkedin">
+                            
+                        <a class="icone-email" href="https://mail.google.com/mail/?view=cm&fs=1&to=gregorykeune@gmail.com&su=Assunto&body=Olá%20mensagem%20aqui" target="_blank" rel="nofollow"><img src="img/icones/email-icon.svg" alt=""></a>
+                            
+                        <h3>Email:</h2>
+                                
+                        <p>gregorykeune@gmail.com</p>
+                                
+                    </div>
+                </div>
+
+                <div class="espaco-superior">
+
+                    <div class="contato-linkedin">
+                        
+                        <a class="icone-telefone" href="" target="_blank" rel="nofollow"><img src="img/icones/phone-solid.svg" alt=""></a>
+                        
+                        <h3>Telefone:</h2>
+                            
+                        <p>(41) 99760-3567</p>
+                            
+                    </div>
+
+                    <div class="contato-linkedin">
+                        
+                        <a class="icone-telefone" href="https://github.com/gregorykeune" target="_blank" rel="nofollow"><img src="img/icones/github-logo.png" alt=""></a>
+                        
+                        <h3>GitHub</h2>
+                            
+                        <p>gregorykeune</p>
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="footer">
+        <footer>
+            <div class="creditos">
+                <div class="agradecimento">
+                    <h1>Obrigado pela atenção!</h1>
+                </div>
+
+                <div class="info">
+                    <a href="mailto:gregorykeune@gmail.com"><p>gregorykeune@gmail.com</p></a>
+                    <p>Desevolvido por Gregory Keune</p>
+                    <p>Site responsivo em HTML, CSS e JavaScript</p>
+
+                </div>
+            </div>
+
+            <div class="links">
+                <h2>Entre em Contato</h2>
+                <a href="mailto:gregorykeune@gmail.com" target="_blank" rel="nofollow">Email</a>
+                <a href="https://www.linkedin.com/in/gregory-keune-rodrigues-691028330/" target="_blank" rel="nofollow">Linkedin</a>
+                <a href="https://github.com/gregorykeune" target="_blank" rel="nofollow">GitHub</a>
+            </div>
+        </footer>
+    </section>
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
